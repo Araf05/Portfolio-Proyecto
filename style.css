@@ -17,10 +17,10 @@ nav{
 nav a{
     color: #fff;
     text-decoration: none;
-    display: inline-block;
 }
 
 .icono{
+    display: block;
     animation: moverIzquierda 1s ease-in;
     z-index: 100;
 }
@@ -97,11 +97,10 @@ img{
     left: 0;
     flex-direction: column;
     width: 100%;
-    transition: all 1s ease;
     background: #FBD3E9;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    transition: all 1s ease;
 }
 
 .uno{
