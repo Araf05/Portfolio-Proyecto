@@ -111,8 +111,8 @@ img{
 }
 
 .dos{
-    -webkit-clip-path: circle(150% at 0 0);
-    clip-path: circle(150% at 0 0);
+    -webkit-clip-path: circle(140% at 0 0);
+    clip-path: circle(140% at 0 0);
 }
 
 
@@ -146,5 +146,73 @@ img{
     100%{
         opacity: 100;
         transform: translate(0);
+    }
+}
+
+@media screen and (max-width:1000px){
+    img{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:800px){
+    img{
+        height: 200px;
+    }
+    .textos h1{
+        font-size: 70px;
+    }
+    .textos h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:700px){
+    img{
+        height: 150px;
+    }
+    .textos h1{
+        font-size: 40px;
+    }
+    .textos h2{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .container{
+        width: 100%;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    img{
+        height: 150px;
+    }
+    .textos{
+        width: 100%;
+        text-align: center;
+    }
+
+    .textos h1{
+        font-size: 40px;
+    }
+    .textos h2{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:340px){
+    img{
+        height: 100px;
+    }
+    .textos a{
+        width: 120px;
+    }
+
+    .textos h1{
+        font-size: 35px;
+    }
+    .textos h2{
+        font-size: 15px;
     }
 }
